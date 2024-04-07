@@ -1,0 +1,14 @@
+c:\Repository\Activities\Estrutura de Dados\linear_list\obj\Debug\net8.0\linear_list.GeneratedMSBuildEditorConfig.editorconfig
+c:\Repository\Activities\Estrutura de Dados\linear_list\obj\Debug\net8.0\linear_list.AssemblyInfoInputs.cache
+c:\Repository\Activities\Estrutura de Dados\linear_list\obj\Debug\net8.0\linear_list.AssemblyInfo.cs
+c:\Repository\Activities\Estrutura de Dados\linear_list\obj\Debug\net8.0\linear_list.csproj.CoreCompileInputs.cache
+c:\Repository\Activities\Estrutura de Dados\linear_list\bin\Debug\net8.0\linear_list.exe
+c:\Repository\Activities\Estrutura de Dados\linear_list\bin\Debug\net8.0\linear_list.deps.json
+c:\Repository\Activities\Estrutura de Dados\linear_list\bin\Debug\net8.0\linear_list.runtimeconfig.json
+c:\Repository\Activities\Estrutura de Dados\linear_list\bin\Debug\net8.0\linear_list.dll
+c:\Repository\Activities\Estrutura de Dados\linear_list\bin\Debug\net8.0\linear_list.pdb
+c:\Repository\Activities\Estrutura de Dados\linear_list\obj\Debug\net8.0\linear_list.dll
+c:\Repository\Activities\Estrutura de Dados\linear_list\obj\Debug\net8.0\refint\linear_list.dll
+c:\Repository\Activities\Estrutura de Dados\linear_list\obj\Debug\net8.0\linear_list.pdb
+c:\Repository\Activities\Estrutura de Dados\linear_list\obj\Debug\net8.0\linear_list.genruntimeconfig.cache
+c:\Repository\Activities\Estrutura de Dados\linear_list\obj\Debug\net8.0\ref\linear_list.dll
