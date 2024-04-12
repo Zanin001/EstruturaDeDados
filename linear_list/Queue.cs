@@ -16,28 +16,36 @@ public class Queue : IList
     }
     public bool Delete(int index)
     {
-        if (index < 0 || index > Top)
+        try
+        {
+            if (Top == -1)
+                return false;
+
+            int[] newArray = new int[LinearList.Length - 1];
+
+            Array.Copy(LinearList, 1, newArray, 0, LinearList.Length);
+
+            return true;
+        }
+        catch (Exception ex)
+        {
             return false;
-
-        for (int i = index; i < Top; i++)
-            LinearList[i] = LinearList[i + 1];
-
-        Array.Resize(ref LinearList, LinearList.Length - 1);
-
-        return true;
+        }
     }
 
     public bool Insert(int value)
     {
-        Array.Resize(ref LinearList, LinearList.Length + 1);
-
-        for (int i = Top; i > 0; i--)
+        try
         {
-            LinearList[i] = LinearList[i - 1];
-        }
+            Array.Resize(ref LinearList, LinearList.Length + 1);
+            LinearList[LinearList.Length - 1] = value;
 
-        LinearList[0] = value;
-        return true;
+            return true;
+        }
+        catch (Exception ex)
+        {
+            return false;
+        }
     }
 
     public int Search(int value)

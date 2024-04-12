@@ -17,25 +17,38 @@ public class Stack : IList
     }
     
 
-    public bool Delete(int index)
+    public bool Delete()
     {
-        if (index < 0 || index > Top)
+        try
+        {
+            if (Top == -1)
+                return false;
+
+            int[] newArray = new int[LinearList.Length - 1];
+
+            Array.Copy(LinearList, 0, newArray, 0, LinearList.Length);
+
+            return true;
+        }
+        catch (Exception ex)
+        {
             return false;
-        
-        for (int i = index; i < Top; i++)
-            LinearList[i] = LinearList[i + 1];
-
-        Array.Resize(ref LinearList, LinearList.Length - 1);
-
-        return true;
+        }
     }
 
     public bool Insert(int value)
     {        
-        Array.Resize(ref LinearList, LinearList.Length + 1);
-        LinearList[LinearList.Length - 1] = value;
-        
-        return true;
+        try
+        {
+            Array.Resize(ref LinearList, LinearList.Length + 1);
+            LinearList[LinearList.Length - 1] = value;
+
+            return true;
+        }
+        catch (Exception ex)
+        {
+            return false;
+        }
     }
 
     public int Search(int value)

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Repository\\Activities\\Estrutura de Dados\\linear_list\\linear_list.csproj": {}
+    "C:\\Repository\\Activities\\Estrutura de Dados\\linear_list\\linear_list.csproj": {}
   },
   "projects": {
-    "c:\\Repository\\Activities\\Estrutura de Dados\\linear_list\\linear_list.csproj": {
+    "C:\\Repository\\Activities\\Estrutura de Dados\\linear_list\\linear_list.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Repository\\Activities\\Estrutura de Dados\\linear_list\\linear_list.csproj",
+        "projectUniqueName": "C:\\Repository\\Activities\\Estrutura de Dados\\linear_list\\linear_list.csproj",
         "projectName": "linear_list",
-        "projectPath": "c:\\Repository\\Activities\\Estrutura de Dados\\linear_list\\linear_list.csproj",
+        "projectPath": "C:\\Repository\\Activities\\Estrutura de Dados\\linear_list\\linear_list.csproj",
         "packagesPath": "C:\\Users\\Zanin\\.nuget\\packages\\",
-        "outputPath": "c:\\Repository\\Activities\\Estrutura de Dados\\linear_list\\obj\\",
+        "outputPath": "C:\\Repository\\Activities\\Estrutura de Dados\\linear_list\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
