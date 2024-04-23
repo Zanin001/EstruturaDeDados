@@ -14,7 +14,7 @@ public class Queue : IList
     {
         LinearList = [0];
     }
-    public bool Delete(int index)
+    public bool Delete()
     {
         try
         {
